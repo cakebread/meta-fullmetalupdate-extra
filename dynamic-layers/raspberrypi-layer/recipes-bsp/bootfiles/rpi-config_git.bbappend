@@ -15,6 +15,8 @@ do_deploy_append() {
     echo "mask_gpu_interrupt0=0x400" >> ${DEPLOYDIR}/bcm2835-bootfiles/config.txt
     echo "dtparam=audio=on" >> ${DEPLOYDIR}/bcm2835-bootfiles/config.txt
     echo "dtoverlay=pi3-disable-bt" >> ${DEPLOYDIR}/bcm2835-bootfiles/config.txt
+    echo "dtoverlay=pi4-64-disable-bt" >> ${DEPLOYDIR}/bcm2835-bootfiles/config.txt
 }
 
 ENABLE_UART_raspberrypi3 = "1"
+ENABLE_UART_raspberrypi4-64 = "1"
