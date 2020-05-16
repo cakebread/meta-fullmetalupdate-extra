@@ -14,8 +14,6 @@ BBLAYERS = " \
   ${BSPDIR}/sources/meta-openembedded/meta-networking \
   \
   ${BSPDIR}/sources/meta-updater \
-  ${BSPDIR}/sources/meta-qt5 \
-  ${BSPDIR}/sources/meta-machinelearning \
   \
   ${BSPDIR}/sources/meta-fullmetalupdate \
   ${BSPDIR}/sources/meta-fullmetalupdate-extra \
